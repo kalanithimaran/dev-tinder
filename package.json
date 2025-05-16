@@ -1,0 +1,19 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "devtinder"
+  ],
+  "author": "kalanthimaran",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
