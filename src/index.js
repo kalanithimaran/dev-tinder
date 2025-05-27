@@ -2,8 +2,16 @@ const express = require("express");
 
 const app = express();
 
-app.use("/", (req, res) => {
-    res.send(`Welcome to DevTinder`);
+app.get("/", (req, res) => {
+  res.send({ name: "kalanithimaran" });
+});
+
+app.post("/", (req, res) => {
+  res.send(`User added successfully`);
+});
+
+app.delete("/", (req, res) => {
+  res.send(`User deleted successfully`);
 });
 
 app.listen(3000, () => {
